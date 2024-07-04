@@ -25,3 +25,22 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+To run:
+        #ng s -o
+        #npx json-server db.json
+
+for pdf and download:
+        #npm install jspdf jspdf-autotable
+
+for pagination:
+        #npm i ngx-pagination
+
+DatePicker, Card (API) from:
+angular material 
+https://material.angular.io/
+import theme in style.css file
+
+charts:
+https://github.com/highcharts/highcharts-angular/blob/master/README.md
+>npm install highcharts highcharts-angular
