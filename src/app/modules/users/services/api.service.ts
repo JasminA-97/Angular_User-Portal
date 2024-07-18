@@ -7,7 +7,7 @@ import { userModel } from '../user-model';
 })
 export class ApiService {
 
-  server_url="http://localhost:3000"
+  server_url="https://angular-user-portal-server.onrender.com"
   constructor(private http:HttpClient) { }
 
   addUserAPI(user:userModel){

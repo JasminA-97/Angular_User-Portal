@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
 })
 export class AdminService {
 
-  serverUrl = "http://localhost:3000"
+  serverUrl = "https://angular-user-portal-server.onrender.com"
 
   constructor(private http:HttpClient,private router:Router) { }
 
